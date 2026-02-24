@@ -79,4 +79,33 @@ def intrams_team(e=None):
     else:
         display("No team assigned for this grade and section.", target="output")
     document.getElementById("checkBtn").onclick = intrams_team
-
+def play(e):
+    document.getElementById('out').innerHTML=" "
+    pl=["Tessa Aseo",
+    "Anakin Batac",
+    "Neriza Calanglang",
+    "Vito De Guzman",
+    "Aaron Dee",
+    "Harvey Dolor",
+    "Selena Galvez",
+    "Adrianna Garces",
+    "Jillian Grospe",
+    "Eduardo Hizon",
+    "Margo Intalan",
+    "Atasha Ko",
+    "Alijah Lagman",
+    "Marcus Law",
+    "Sittie Macabago",
+    "Euan Martinez",
+    "Kelsey Medina",
+    "Sofia Padojinog",
+    "Michaela Mendoza",
+    "Manuel Mergal",
+    "Seth Ngo",
+    "Sofia Padojinog",
+    "Benigno Rivera",
+    "Ishan Shrestha",
+    "Jennifer Uy",
+    "Francesca Yao"]
+    for pl in pl:
+        display(f'{pl}', target="out")
