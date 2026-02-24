@@ -108,5 +108,5 @@ def play(e):
     "Jennifer Uy",
     "Francesca Yao"]
     for pl in pl:
-        display(f'{li} {pl}', target="out")
+        display(f'{pl}', target="out")
 
